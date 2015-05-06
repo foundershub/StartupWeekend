@@ -1,0 +1,17 @@
+vendor
+bin
+app/cache
+app/config/parameters.yml
+app/config/parameters_test.yml
+npm-debug.log
+build
+node_modules
+web/assetic
+web/bundles
+web/css
+web/js
+app/bootstrap.php.cache
+app/logs
+web/images
+web/index.php
+web/uploads
