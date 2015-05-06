@@ -1,4 +1,6 @@
-# app..me
+# Foundershub RheinMain Startup Weekend
+
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/e2a6c40c-a8b7-45d3-8677-0670597a4fb6/big.png)](https://insight.sensiolabs.com/projects/e2a6c40c-a8b7-45d3-8677-0670597a4fb6)
 
 ## Setup
 
