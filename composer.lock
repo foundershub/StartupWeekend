@@ -4,8 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f8cac5c35968a75021d8a50a77f92326",
+    "hash": "7de10f7d6599ded0c340ff8dd220323a",
     "packages": [
+        {
+            "name": "abraham/twitteroauth",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abraham/twitteroauth.git",
+                "reference": "adf6a8ee92b0bac69cae7dded9743d5a7de0057e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abraham/twitteroauth/zipball/adf6a8ee92b0bac69cae7dded9743d5a7de0057e",
+                "reference": "adf6a8ee92b0bac69cae7dded9743d5a7de0057e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Abraham\\TwitterOAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abraham Williams",
+                    "email": "abraham@abrah.am",
+                    "homepage": "https://abrah.am",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The first PHP Library to support OAuth 1.0A for Twitter's REST API.",
+            "homepage": "https://github.com/abraham/twitteroauth",
+            "keywords": [
+                "api",
+                "oauth",
+                "twitter"
+            ],
+            "time": "2014-11-18 00:05:59"
+        },
         {
             "name": "behat/transliterator",
             "version": "v1.0.1",
@@ -45,48 +93,6 @@
                 "transliterator"
             ],
             "time": "2014-05-15 22:08:22"
-        },
-        {
-            "name": "components/jquery",
-            "version": "2.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/components/jquery.git",
-                "reference": "f8edb647d1833fd5d57410ab70860f03534cb2e8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/components/jquery/zipball/f8edb647d1833fd5d57410ab70860f03534cb2e8",
-                "reference": "f8edb647d1833fd5d57410ab70860f03534cb2e8",
-                "shasum": ""
-            },
-            "type": "component",
-            "extra": {
-                "component": {
-                    "scripts": [
-                        "jquery.js"
-                    ],
-                    "files": [
-                        "jquery.min.js",
-                        "jquery.min.map",
-                        "jquery-migrate.js",
-                        "jquery-migrate.min.js"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "John Resig",
-                    "email": "jeresig@gmail.com"
-                }
-            ],
-            "description": "jQuery JavaScript Library",
-            "homepage": "http://jquery.com",
-            "time": "2014-12-23 06:48:45"
         },
         {
             "name": "doctrine/annotations",
@@ -1061,6 +1067,59 @@
             "time": "2015-02-11 13:50:54"
         },
         {
+            "name": "dothiv/dothiv-valueobject-bundle",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dothiv/DothivValueObjectBundle.git",
+                "reference": "a4b63b358622efea756ffea605c9eb12f2f143e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dothiv/DothivValueObjectBundle/zipball/a4b63b358622efea756ffea605c9eb12f2f143e8",
+                "reference": "a4b63b358622efea756ffea605c9eb12f2f143e8",
+                "shasum": ""
+            },
+            "require": {
+                "jms/serializer": "~0.16.0",
+                "php": ">=5.3.9",
+                "symfony/framework-bundle": "~2.3"
+            },
+            "require-dev": {
+                "covex-nn/phpcb": "*",
+                "pdepend/pdepend": "*",
+                "phploc/phploc": "*",
+                "phpmd/phpmd": "*",
+                "phpunit/phpunit": "*",
+                "sebastian/phpcpd": "*",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Dothiv\\ValueObject": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TLD dotHIV Registry GmbH",
+                    "homepage": "https://tld.hiv/"
+                }
+            ],
+            "description": "dotHIV valueobject bundle for Symfony2 is a collection of value objects.",
+            "homepage": "http://github.com/dotHIV/DothivValueObjectBundle",
+            "keywords": [
+                "Symfony2",
+                "ValueObject",
+                "bundle"
+            ],
+            "time": "2015-02-12 08:12:46"
+        },
+        {
             "name": "erusev/parsedown",
             "version": "1.0.1",
             "source": {
@@ -1106,15 +1165,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/foundershub/StartupWeekendBundle.git",
-                "reference": "bfbcfd4a4af20fa2c9ab2437b26865cb540729f2"
+                "reference": "76717fdc4b740155744b8ccb2ce18f1aa253fedf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/bfbcfd4a4af20fa2c9ab2437b26865cb540729f2",
-                "reference": "bfbcfd4a4af20fa2c9ab2437b26865cb540729f2",
+                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/76717fdc4b740155744b8ccb2ce18f1aa253fedf",
+                "reference": "76717fdc4b740155744b8ccb2ce18f1aa253fedf",
                 "shasum": ""
             },
             "require": {
+                "abraham/twitteroauth": "0.2.x",
+                "dothiv/dothiv-valueobject-bundle": "1.x",
                 "php": ">=5.3.9",
                 "symfony/framework-bundle": "~2.3"
             },
@@ -1150,7 +1211,7 @@
                 "Symfony2",
                 "bundle"
             ],
-            "time": "2015-05-06 17:49:40"
+            "time": "2015-05-07 16:28:54"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -2497,33 +2558,6 @@
                 "templating"
             ],
             "time": "2015-04-19 08:30:27"
-        },
-        {
-            "name": "twitter/bootstrap",
-            "version": "v2.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "b4c4072679943773a7582daa63f545ba818fa627"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/b4c4072679943773a7582daa63f545ba818fa627",
-                "reference": "b4c4072679943773a7582daa63f545ba818fa627",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
-            "homepage": "http://twbs.github.com/bootstrap/",
-            "keywords": [
-                "bootstrap",
-                "css"
-            ],
-            "time": "2013-07-27 06:36:38"
         }
     ],
     "packages-dev": [

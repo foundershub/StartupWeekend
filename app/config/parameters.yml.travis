@@ -20,3 +20,8 @@ parameters:
     mailer_from_email: startupweekend@foundershub.de
     node_bin: /usr/bin/node
     node_modules: '%kernel.root_dir%/../node_modules'
+    twitter: fh_rm
+    twitter_consumer_key: changeme
+    twitter_consumer_secret: changeme
+    twitter_oauth_access_token: changeme
+    twitter_oauth_access_token_secret: changeme

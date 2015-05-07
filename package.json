@@ -4,8 +4,8 @@
     "url": "git@github.com:foundershub/StartupWeekend.git"
   },
   "dependencies": {
-    "less": "^1.7.5",
-    "uglify-js": "^2.4.16",
-    "uglifycss": "0.0.11"
+    "less": "^2.5.0",
+    "uglify-js": "^2.4.21",
+    "uglifycss": "0.0.15"
   }
 }

@@ -1,0 +1,3 @@
+FoundershubStartupWeekendBundle:
+    resource: "@FoundershubStartupWeekendBundle/Resources/config/routing.yml"
+    prefix:   /
