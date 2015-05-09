@@ -60,5 +60,19 @@
     "branch-alias": {
       "dev-master": "0.1-dev"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "abraham/twitteroauth",
+        "type": "package",
+        "version": "0.2.0.3",
+        "dist": {
+          "url": "https://github.com/abraham/twitteroauth/archive/0.2.0-beta3.zip",
+          "type": "zip"
+        }
+      }
+    }
+  ]
 }
