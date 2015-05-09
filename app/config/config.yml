@@ -31,6 +31,7 @@ twig:
     globals:
       locale: %locale%
       twitter: %twitter%
+      email: %mailer_from_email%
 
 # Assetic Configuration
 assetic:
