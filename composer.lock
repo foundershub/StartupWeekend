@@ -1165,12 +1165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/foundershub/StartupWeekendBundle.git",
-                "reference": "76717fdc4b740155744b8ccb2ce18f1aa253fedf"
+                "reference": "0214fe1e3bba3c935cfbed940bc72493bdb2f69f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/76717fdc4b740155744b8ccb2ce18f1aa253fedf",
-                "reference": "76717fdc4b740155744b8ccb2ce18f1aa253fedf",
+                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/0214fe1e3bba3c935cfbed940bc72493bdb2f69f",
+                "reference": "0214fe1e3bba3c935cfbed940bc72493bdb2f69f",
                 "shasum": ""
             },
             "require": {
@@ -1211,7 +1211,7 @@
                 "Symfony2",
                 "bundle"
             ],
-            "time": "2015-05-07 16:28:54"
+            "time": "2015-05-08 20:59:52"
         },
         {
             "name": "gedmo/doctrine-extensions",
