@@ -1128,12 +1128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/foundershub/StartupWeekendBundle.git",
-                "reference": "d0608d305c4547118cedea359d085feb4a73aa7b"
+                "reference": "cfb7b135526865905f264022a0e8fa4c2b88de0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/d0608d305c4547118cedea359d085feb4a73aa7b",
-                "reference": "d0608d305c4547118cedea359d085feb4a73aa7b",
+                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/cfb7b135526865905f264022a0e8fa4c2b88de0a",
+                "reference": "cfb7b135526865905f264022a0e8fa4c2b88de0a",
                 "shasum": ""
             },
             "require": {
