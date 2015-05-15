@@ -25,3 +25,5 @@ parameters:
     twitter_consumer_secret: changeme
     twitter_oauth_access_token: changeme
     twitter_oauth_access_token_secret: changeme
+    dothiv_contentful_webhook_password: changeme
+    contenful_space_startupweekend: 02a5nspwyhyu

@@ -30,7 +30,8 @@ class AppKernel extends Kernel
             new Nelmio\CorsBundle\NelmioCorsBundle(),
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new Dothiv\Bundle\ParsedownBundle\DothivParsedownBundle(),
-            new Foundershub\Bundle\StartupWeekendBundle\FoundershubStartupWeekendBundle()
+            new Dothiv\Bundle\ContentfulBundle\DothivContentfulBundle(),
+            new Foundershub\Bundle\StartupWeekendBundle\FoundershubStartupWeekendBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

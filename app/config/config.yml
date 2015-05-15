@@ -98,3 +98,7 @@ jms_serializer:
         json:
             # $ php -r 'echo JSON_UNESCAPED_SLASHES'
             options: 64
+
+dothiv_contentful:
+    webhook:
+        httpBasicPassword: %dothiv_contentful_webhook_password%
