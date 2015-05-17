@@ -982,15 +982,16 @@
         {
             "name": "dothiv/dothiv-contentful-bundle",
             "version": "dev-master",
+            "target-dir": "Dothiv/Bundle/ContentfulBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dothiv/DothivContentfulBundle.git",
-                "reference": "e5d6af7be18a6d4380915eba560ceb9daf2b6a70"
+                "reference": "e26e59627c89700f48707463c75f54aaeaefbee1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dothiv/DothivContentfulBundle/zipball/e5d6af7be18a6d4380915eba560ceb9daf2b6a70",
-                "reference": "e5d6af7be18a6d4380915eba560ceb9daf2b6a70",
+                "url": "https://api.github.com/repos/dothiv/DothivContentfulBundle/zipball/e26e59627c89700f48707463c75f54aaeaefbee1",
+                "reference": "e26e59627c89700f48707463c75f54aaeaefbee1",
                 "shasum": ""
             },
             "require": {
@@ -1005,7 +1006,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Dothiv\\Bundle\\ContentfulBundle": ""
+                    "Dothiv\\Bundle\\ContentfulBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1019,7 +1020,7 @@
                 }
             ],
             "description": "ContentfulBundle for the Symfony Framework",
-            "time": "2015-05-17 15:20:21"
+            "time": "2015-05-17 16:41:09"
         },
         {
             "name": "dothiv/dothiv-parsedown-bundle",
@@ -1170,12 +1171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/foundershub/StartupWeekendBundle.git",
-                "reference": "dc63083856f7baecabb5c3302c192d271f353832"
+                "reference": "110640d0a0c2eca18ffc9b03724cf4ae6270a477"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/dc63083856f7baecabb5c3302c192d271f353832",
-                "reference": "dc63083856f7baecabb5c3302c192d271f353832",
+                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/110640d0a0c2eca18ffc9b03724cf4ae6270a477",
+                "reference": "110640d0a0c2eca18ffc9b03724cf4ae6270a477",
                 "shasum": ""
             },
             "require": {
@@ -1217,7 +1218,7 @@
                 "Symfony2",
                 "bundle"
             ],
-            "time": "2015-05-15 18:04:20"
+            "time": "2015-05-17 16:41:54"
         },
         {
             "name": "gedmo/doctrine-extensions",
