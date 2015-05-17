@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4cf48d28d4ff900ecb5789e2df8e9c46",
+    "hash": "28e83c31c238756138ab6e38b7c0da12",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -980,6 +980,48 @@
             "time": "2014-06-03 19:53:45"
         },
         {
+            "name": "dothiv/dothiv-contentful-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dothiv/DothivContentfulBundle.git",
+                "reference": "e5d6af7be18a6d4380915eba560ceb9daf2b6a70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dothiv/DothivContentfulBundle/zipball/e5d6af7be18a6d4380915eba560ceb9daf2b6a70",
+                "reference": "e5d6af7be18a6d4380915eba560ceb9daf2b6a70",
+                "shasum": ""
+            },
+            "require": {
+                "imagine/imagine": "0.6.*",
+                "phpoption/phpoption": "1.4.*",
+                "symfony/framework-bundle": "~2.3",
+                "twig/extensions": "1.0.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Dothiv\\Bundle\\ContentfulBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Markus Tacker",
+                    "email": "m@tld.hiv"
+                }
+            ],
+            "description": "ContentfulBundle for the Symfony Framework",
+            "time": "2015-05-17 15:20:21"
+        },
+        {
             "name": "dothiv/dothiv-parsedown-bundle",
             "version": "dev-master",
             "target-dir": "Dothiv/Bundle/ParsedownBundle",
@@ -1128,16 +1170,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/foundershub/StartupWeekendBundle.git",
-                "reference": "cfb7b135526865905f264022a0e8fa4c2b88de0a"
+                "reference": "dc63083856f7baecabb5c3302c192d271f353832"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/cfb7b135526865905f264022a0e8fa4c2b88de0a",
-                "reference": "cfb7b135526865905f264022a0e8fa4c2b88de0a",
+                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/dc63083856f7baecabb5c3302c192d271f353832",
+                "reference": "dc63083856f7baecabb5c3302c192d271f353832",
                 "shasum": ""
             },
             "require": {
                 "abraham/twitteroauth": "0.2.0.3",
+                "dothiv/dothiv-contentful-bundle": "dev-master",
                 "dothiv/dothiv-valueobject-bundle": "1.x",
                 "php": ">=5.3.9",
                 "symfony/framework-bundle": "~2.3"
@@ -1174,7 +1217,7 @@
                 "Symfony2",
                 "bundle"
             ],
-            "time": "2015-05-09 14:34:24"
+            "time": "2015-05-15 18:04:20"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1253,6 +1296,63 @@
                 "uploadable"
             ],
             "time": "2015-02-24 21:41:37"
+        },
+        {
+            "name": "imagine/imagine",
+            "version": "0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avalanche123/Imagine.git",
+                "reference": "83ca8babede0e54f935ec09d55a726bf4b0a3f7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/83ca8babede0e54f935ec09d55a726bf4b0a3f7c",
+                "reference": "83ca8babede0e54f935ec09d55a726bf4b0a3f7c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "sami/sami": "dev-master"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Imagine": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
+                }
+            ],
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
+            "keywords": [
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
+            ],
+            "time": "2014-11-11 11:36:02"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -2310,16 +2410,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.27",
+            "version": "v2.3.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "ce4aab1508dd9642906fc9a120e0d8763e689896"
+                "reference": "56bc4057e3849d38aeb5e9742bc800b0518fe1f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/ce4aab1508dd9642906fc9a120e0d8763e689896",
-                "reference": "ce4aab1508dd9642906fc9a120e0d8763e689896",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/56bc4057e3849d38aeb5e9742bc800b0518fe1f0",
+                "reference": "56bc4057e3849d38aeb5e9742bc800b0518fe1f0",
                 "shasum": ""
             },
             "require": {
@@ -2414,7 +2514,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-04-01 14:28:26"
+            "time": "2015-05-10 15:02:48"
         },
         {
             "name": "twig/extensions",
@@ -2583,7 +2683,8 @@
         "doctrine/migrations": 20,
         "doctrine/doctrine-migrations-bundle": 20,
         "foundershub/foundershub-startupweekend-bundle": 20,
-        "dothiv/dothiv-parsedown-bundle": 20
+        "dothiv/dothiv-parsedown-bundle": 20,
+        "dothiv/dothiv-contentful-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

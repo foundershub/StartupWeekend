@@ -27,7 +27,8 @@
     "doctrine/migrations": "1.0.*@dev",
     "doctrine/doctrine-migrations-bundle": "2.1.*@dev",
     "foundershub/foundershub-startupweekend-bundle": "dev-master",
-    "dothiv/dothiv-parsedown-bundle": "dev-master"
+    "dothiv/dothiv-parsedown-bundle": "dev-master",
+    "dothiv/dothiv-contentful-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.3.*"
