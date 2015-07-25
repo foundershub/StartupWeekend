@@ -1,3 +1,7 @@
 FoundershubStartupWeekendBundle:
     resource: "@FoundershubStartupWeekendBundle/Resources/config/routing.yml"
     prefix:   /
+
+DothivContentfulBundle:
+    resource: "@DothivContentfulBundle/Resources/config/routing.yml"
+    prefix:   /contentful/
