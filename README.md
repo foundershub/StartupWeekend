@@ -8,6 +8,12 @@ This is a Symfony2-Project. See [their extensive documentation](http://symfony.c
 
 In a nutshell:
 
+    # Set up db
+    su postgres
+    psql
+    > CREATE ROLE "swrm" PASSWORD 'somepass' NOSUPERUSER NOCREATEDB NOCREATEROLE INHERIT LOGIN;
+    > CREATE DATABASE "swrm" OWNER "swrm";
+    # Install
     php composer.phar install
     npm install
     # Fix permissions
@@ -17,4 +23,6 @@ In a nutshell:
     # Build assets
     app/console assets:install --symlink
     app/console assetic:dump
+    # Init db
+    app/console --env=prod doctrine:schema:update --force
 
