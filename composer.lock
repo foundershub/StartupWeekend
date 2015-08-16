@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "70ff08ed18d6fc423472e37c0391fdc7",
+    "hash": "d0fee89576f11965f388a30a7c7e5c5c",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -613,16 +613,15 @@
         {
             "name": "doctrine/doctrine-fixtures-bundle",
             "version": "dev-master",
-            "target-dir": "Doctrine/Bundle/FixturesBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "c5ff0542772102ddd4e2fbe173e9ad40ad67c22f"
+                "reference": "817c2d233fde0fe85cb7e4d25d43fbfcd028aef8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/c5ff0542772102ddd4e2fbe173e9ad40ad67c22f",
-                "reference": "c5ff0542772102ddd4e2fbe173e9ad40ad67c22f",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/817c2d233fde0fe85cb7e4d25d43fbfcd028aef8",
+                "reference": "817c2d233fde0fe85cb7e4d25d43fbfcd028aef8",
                 "shasum": ""
             },
             "require": {
@@ -638,8 +637,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Doctrine\\Bundle\\FixturesBundle": ""
+                "psr-4": {
+                    "Doctrine\\Bundle\\FixturesBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -666,7 +665,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2015-01-19 02:21:37"
+            "time": "2015-08-04 22:43:14"
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
@@ -685,7 +684,7 @@
             },
             "require": {
                 "doctrine/doctrine-bundle": "~1.0",
-                "doctrine/migrations": "~1.0@dev",
+                "doctrine/migrations": "~1.0",
                 "php": ">=5.3.2",
                 "symfony/framework-bundle": "~2.3|~3.0"
             },
@@ -854,12 +853,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "78954cce4962a4655ff47c0751eb78021fbaf2cc"
+                "reference": "c36e249aa59e8be98c0ee3889fd4ae8000dd856f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/78954cce4962a4655ff47c0751eb78021fbaf2cc",
-                "reference": "78954cce4962a4655ff47c0751eb78021fbaf2cc",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/c36e249aa59e8be98c0ee3889fd4ae8000dd856f",
+                "reference": "c36e249aa59e8be98c0ee3889fd4ae8000dd856f",
                 "shasum": ""
             },
             "require": {
@@ -879,10 +878,13 @@
             "suggest": {
                 "symfony/console": "to run the migration from the console"
             },
+            "bin": [
+                "bin/doctrine-migrations"
+            ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "v1.0.x-dev"
                 }
             },
             "autoload": {
@@ -910,7 +912,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2015-07-05 21:24:36"
+            "time": "2015-08-16 06:31:15"
         },
         {
             "name": "doctrine/orm",
@@ -985,23 +987,30 @@
         },
         {
             "name": "dothiv/dothiv-contentful-bundle",
-            "version": "dev-master",
+            "version": "v0.2.1",
             "target-dir": "Dothiv/Bundle/ContentfulBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dothiv/DothivContentfulBundle.git",
-                "reference": "e26e59627c89700f48707463c75f54aaeaefbee1"
+                "reference": "285ffac215d43823a0c8afb62f20b56d425aad20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dothiv/DothivContentfulBundle/zipball/e26e59627c89700f48707463c75f54aaeaefbee1",
-                "reference": "e26e59627c89700f48707463c75f54aaeaefbee1",
+                "url": "https://api.github.com/repos/dothiv/DothivContentfulBundle/zipball/285ffac215d43823a0c8afb62f20b56d425aad20",
+                "reference": "285ffac215d43823a0c8afb62f20b56d425aad20",
                 "shasum": ""
             },
             "require": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "doctrine/doctrine-cache-bundle": "1.0.x",
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "dothiv/dothiv-valueobject-bundle": "1.x",
+                "gedmo/doctrine-extensions": "2.3.*",
                 "imagine/imagine": "0.6.*",
                 "phpoption/phpoption": "1.4.*",
                 "symfony/framework-bundle": "~2.3",
+                "symfony/twig-bundle": "2.3.*",
+                "symfony/validator": "2.3.*",
                 "twig/extensions": "1.0.*"
             },
             "require-dev": {
@@ -1024,11 +1033,11 @@
                 }
             ],
             "description": "ContentfulBundle for the Symfony Framework",
-            "time": "2015-05-17 16:41:09"
+            "time": "2015-08-16 20:38:08"
         },
         {
             "name": "dothiv/dothiv-parsedown-bundle",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "target-dir": "Dothiv/Bundle/ParsedownBundle",
             "source": {
                 "type": "git",
@@ -1170,25 +1179,27 @@
         },
         {
             "name": "foundershub/foundershub-startupweekend-bundle",
-            "version": "v1.1.0",
+            "version": "v1.2.4",
             "target-dir": "Foundershub/Bundle/StartupWeekendBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foundershub/StartupWeekendBundle.git",
-                "reference": "5ba4bbb37e46bec32c690643b33a23d9acdd8b44"
+                "reference": "e59f53ad1a6db0e67ad951ccb1e17255a6131795"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/5ba4bbb37e46bec32c690643b33a23d9acdd8b44",
-                "reference": "5ba4bbb37e46bec32c690643b33a23d9acdd8b44",
+                "url": "https://api.github.com/repos/foundershub/StartupWeekendBundle/zipball/e59f53ad1a6db0e67ad951ccb1e17255a6131795",
+                "reference": "e59f53ad1a6db0e67ad951ccb1e17255a6131795",
                 "shasum": ""
             },
             "require": {
                 "abraham/twitteroauth": "0.2.0.3",
-                "dothiv/dothiv-contentful-bundle": "dev-master",
+                "dothiv/dothiv-contentful-bundle": ">=0.2.1",
+                "dothiv/dothiv-parsedown-bundle": ">=1.0.0",
                 "dothiv/dothiv-valueobject-bundle": "1.x",
                 "php": ">=5.3.9",
-                "symfony/framework-bundle": "~2.3"
+                "symfony/framework-bundle": "~2.3",
+                "twig/extensions": "1.0.*"
             },
             "require-dev": {
                 "phpunit/phpunit": "*"
@@ -1222,7 +1233,7 @@
                 "Symfony2",
                 "bundle"
             ],
-            "time": "2015-07-27 16:46:01"
+            "time": "2015-08-16 21:31:48"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1760,16 +1771,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.15.0",
+            "version": "1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "dc5150cc608f2334c72c3b6a553ec9668a4156b0"
+                "reference": "c0c0b4bee3aabce7182876b0d912ef2595563db7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/dc5150cc608f2334c72c3b6a553ec9668a4156b0",
-                "reference": "dc5150cc608f2334c72c3b6a553ec9668a4156b0",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c0c0b4bee3aabce7182876b0d912ef2595563db7",
+                "reference": "c0c0b4bee3aabce7182876b0d912ef2595563db7",
                 "shasum": ""
             },
             "require": {
@@ -1806,7 +1817,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15.x-dev"
+                    "dev-master": "1.16.x-dev"
                 }
             },
             "autoload": {
@@ -1832,7 +1843,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-07-12 13:54:09"
+            "time": "2015-08-09 17:44:44"
         },
         {
             "name": "nelmio/cors-bundle",
@@ -2575,16 +2586,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.18.2",
+            "version": "v1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "e8e6575abf6102af53ec283f7f14b89e304fa602"
+                "reference": "1ea4e5f81c6d005fe84d0b38e1c4f1955eb86844"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e8e6575abf6102af53ec283f7f14b89e304fa602",
-                "reference": "e8e6575abf6102af53ec283f7f14b89e304fa602",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/1ea4e5f81c6d005fe84d0b38e1c4f1955eb86844",
+                "reference": "1ea4e5f81c6d005fe84d0b38e1c4f1955eb86844",
                 "shasum": ""
             },
             "require": {
@@ -2593,7 +2604,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.18-dev"
+                    "dev-master": "1.20-dev"
                 }
             },
             "autoload": {
@@ -2628,7 +2639,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-06-06 23:31:24"
+            "time": "2015-08-12 15:56:39"
         }
     ],
     "packages-dev": [
@@ -2689,9 +2700,7 @@
         "jms/serializer-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
         "doctrine/migrations": 20,
-        "doctrine/doctrine-migrations-bundle": 20,
-        "dothiv/dothiv-parsedown-bundle": 20,
-        "dothiv/dothiv-contentful-bundle": 20
+        "doctrine/doctrine-migrations-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

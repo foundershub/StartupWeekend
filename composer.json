@@ -26,9 +26,7 @@
     "nelmio/cors-bundle": "~1.0",
     "doctrine/migrations": "1.0.*@dev",
     "doctrine/doctrine-migrations-bundle": "2.1.*@dev",
-    "foundershub/foundershub-startupweekend-bundle": "1.x",
-    "dothiv/dothiv-parsedown-bundle": "dev-master",
-    "dothiv/dothiv-contentful-bundle": "dev-master"
+    "foundershub/foundershub-startupweekend-bundle": ">=1.2.4"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.3.*"
