@@ -1,0 +1,3 @@
+S2SRefreshBundlePath:
+    path:     /dbg/{name}
+    defaults: { _controller: S2SRefreshBundle:Default:index }
