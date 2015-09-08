@@ -1,7 +1,3 @@
-S2SRefreshBundle:
-    resource: "@S2SRefreshBundle/Resources/config/routing.yml"
-    prefix:   /
-
 FoundershubStartupWeekendBundle:
     resource: "@FoundershubStartupWeekendBundle/Resources/config/routing.yml"
     prefix:   /

@@ -32,7 +32,6 @@ class AppKernel extends Kernel
             new Dothiv\Bundle\ParsedownBundle\DothivParsedownBundle(),
             new Dothiv\Bundle\ContentfulBundle\DothivContentfulBundle(),
             new Foundershub\Bundle\StartupWeekendBundle\FoundershubStartupWeekendBundle(),
-            new S2S\RefreshBundle\S2SRefreshBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
